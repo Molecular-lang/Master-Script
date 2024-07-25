@@ -10,23 +10,13 @@ Welcome to the Molecular Master Script repository! This script is designed to fa
 - **Progress Bars**: Color-coded progress bars provide a visual indication of the download and installation process.
 - **Interactive Prompts**: The script interacts with the user to handle existing files and installation options.
 
-## Usage
+### Running the Script from a URL
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/masterscript.git
-    cd masterscript
-    ```
+You can run the script directly from a URL if it's hosted on a reachable server:
 
-2. Make the script executable:
-    ```sh
-    chmod +x master_script.sh
-    ```
-
-3. Run the script with `sudo`:
-    ```sh
-    sudo ./master_script.sh
-    ```
+```sh
+/bin/bash -c "$(curl -fsSL https://mirrors.molecular-lang.org/master_mole/master_script.sh)"
+```
 
 ## Modifying the Script
 

@@ -1,6 +1,6 @@
 # Master Script
 
-Welcome to the Master Script repository! This script is designed to facilitate the installation of the standard Molecular package manager (MOLE) on Linux systems. 
+Welcome to the Molecular Master Script repository! This script is designed to facilitate the installation of the standard Molecular package manager (MOLE) on Linux systems. 
 
 ## Features
 
@@ -10,32 +10,22 @@ Welcome to the Master Script repository! This script is designed to facilitate t
 - **Progress Bars**: Color-coded progress bars provide a visual indication of the download and installation process.
 - **Interactive Prompts**: The script interacts with the user to handle existing files and installation options.
 
-## Usage
+### Running the Script from a URL
 
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/yourusername/masterscript.git
-    cd masterscript
-    ```
+You can run the script directly from a URL if it's hosted on a reachable server:
 
-2. Make the script executable:
-    ```sh
-    chmod +x master_script.sh
-    ```
-
-3. Run the script with `sudo`:
-    ```sh
-    sudo ./master_script.sh
+```sh
+/bin/bash -c "$(curl -fsSL https://mirrors.molecular-lang.org/master_mole/master_script.sh)"
     ```
 
 ## Modifying the Script
 
 The script is written in Bash and can be easily modified to suit your needs. Below are some areas you might want to customize:
 
-- **Download URL**: Change the URL to download a different package.
-- **Package Name**: Modify the package name as required.
-- **Output File**: Customize the output file path and name.
-- **Progress Bar Colors**: Change the colors used for the progress bars by modifying the color variables.
+- **Download URL**: Change the URL to download a different package. (NOT ADVISED)
+- **Package Name**: Modify the package name as required. (NOT ADVISED)
+- **Output File**: Customize the output file path and name. (NOT ADVISED)
+- **Progress Bar Colors**: Change the colors used for the progress bars by modifying the color variables. (PLAY AROUND)
 
 ## Contributing
 
@@ -76,3 +66,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions or suggestions, feel free to open an issue or contact the repository owner.
 
 Happy Coding!
+Emmasson
