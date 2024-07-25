@@ -16,7 +16,7 @@ You can run the script directly from a URL if it's hosted on a reachable server:
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://mirrors.molecular-lang.org/master_mole/master_script.sh)"
-    ```
+```
 
 ## Modifying the Script
 

@@ -10,12 +10,12 @@ Welcome to the Molecular Master Script repository! This script is designed to fa
 - **Progress Bars**: Color-coded progress bars provide a visual indication of the download and installation process.
 - **Interactive Prompts**: The script interacts with the user to handle existing files and installation options.
 
-### Running the Script from a URL
+### Running the Script
 
 You can run the script directly from a URL if it's hosted on a reachable server:
 
 ```sh
-/bin/bash -c "$(curl -fsSL https://mirrors.molecular-lang.org/master_mole/master_script.sh)"
+sudo /bin/bash -c "$(curl -fsSL https://mirrors.molecular-lang.org/master_mole/master_script.sh)"
 ```
 
 ## Modifying the Script
